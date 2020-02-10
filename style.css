@@ -1,0 +1,80 @@
+
+body {
+	background-color: pink; 
+	color: black;
+	font-family: sans-serif;
+}
+h1, h2, h3{
+	font-family: Courier;
+}
+h1 {
+	color: brown; 
+	font-family: sans-serif;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+h2{
+	color: rgb(100,100,100);
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: #69B380;
+}
+
+div {
+	background: white;
+	border-top: 1px dashed black;
+	border-right: 2px dotted pink;
+	border-bottom: 1px dashed black;
+	border-left: 2px dotted pink;
+	border-radius: 4px;
+	margin:80px 0px 40px 16px;
+	padding: 40px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	width: 300px;
+	margin: 0px auto;
+
+}
+
+.tex-justify
+	{
+	text-align: justify;
+	}
+
+.img-circle 
+	{
+	border-radius: 50%
+	}
+
+.shadowed
+	{
+	box-shadow: 5px 5px 3px black;
+	}
+#leader
+	{
+		border: 5px solid blue;
+	}
+
+#banner h1 {
+	color: purple;
+}
+
+@media (max-width: 500px) {
+	container{
+		background-color: red;
+		width: 400px;
+	}
+@media (max-width: 760px) {
+	container{
+		background-color: blue;
+		width: 600px;
+
+
+
+	
